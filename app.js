@@ -15,8 +15,9 @@ const lazyLoad = (t) => {
       img.setAttribute("src", src);
       img.classList.toggle("fade");
 
-/*       // io.unobserve(t);
-       */    });
+io.unobserve(t);
+       *
+    });
   });
   io.observe(t);
 };
