@@ -25,3 +25,5 @@ targets.forEach((target) => {
 tar.forEach((t) => {
   lazyLoad(t);
 });
+
+console.log("works");
